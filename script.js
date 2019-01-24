@@ -8,7 +8,6 @@
     const imageRatio = 1.66666666;
     $(window).resize(function () {
         let height = $('.image-block').height();
-        let width1 = $(window).width();
         $('.image-block').width(height / imageRatio);
     })
 
